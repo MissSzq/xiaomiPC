@@ -1,0 +1,35 @@
+@charset "utf-8";
+/****文字颜色****/
+.f-t-gray{color:#b0b0b0;}/*灰色*/
+.f-t-orange{color:#ff6700 !important;}/*橘色*/
+.f-t-green{color:green;}
+.f-t-blue{color:blue;}
+.f-t-red{color:red;}
+/****背景颜色***/
+.bg-color-o{background-color:#ff6700;}/*橘色*/
+.bg-color-g{background-color:#333;}/*深灰*/
+/***浮动***/
+.fl-lt{float:left;}/*左浮*/
+.fl-rgt{float:right;}/*右浮*/
+/***清除浮动**/
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+/**清除边框**/
+.bor-rgt{border-right:none !important;}
+.bor-none{border:none !important;}
+ /*****宽度****/
+ .wt1226-m{width: 1226px;margin:auto;}
+ /**边距**/
+ .mg-lt{margin-left:15px;}
+ .mg-rgt{margin-right:15px;}
+ .mg-btm{margin-bottom:14px;}
+ /**行高和加粗**/
+ .lh-fw{line-height:60px;font-weight:normal;}
+/**顶部边框颜色**/
+.bd-color-o{border-top:1px solid #ff6700; }
+.bd-color-g{border-top:1px solid green; }
+.bd-color-b{border-top:1px solid blue; }
+.bd-color-r{border-top:1px solid red; }
